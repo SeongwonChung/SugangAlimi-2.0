@@ -1,0 +1,134 @@
+
+
+.h2{
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8b0028;
+
+    margin: 14px 34px;
+}
+
+.statement{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+
+    
+    margin: 0 34px 14px;
+   
+}
+.mustOrOption{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: right;
+    color: #8b0128;
+    margin-top: 27px;
+    margin-right: 34px;
+  }
+  .middle_wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .ifFreshman{
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    display: flex;
+    align-content: flex-start;
+    margin-top: 20px;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 310px;
+  }
+  .mailbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  .mailInput {
+    width: 180px;
+    height: 44px;
+    border-radius: 3px;
+    border: solid 1px #8b0028;
+    /* background-color: white; */
+    background-color: transparent;
+    -webkit-appearance: none;
+    outline: none;
+    
+    padding-left: 10px;
+  
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+  }
+  
+  .mailText{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #8b0128;
+    margin: 10px 10px;
+    padding-bottom: 10px;
+    
+  }
+.input {
+    width: 296.5px;
+    height: 44px;
+    border-radius: 3px;
+    border: solid 1px #8b0028;
+    /* background-color: white; */
+    background-color: transparent;
+    -webkit-appearance: none;
+    outline: none;
+    
+    padding-left: 10px;
+  
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+  }
+.btn {
+    margin-top: 20px;
+  }

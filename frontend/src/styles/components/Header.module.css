@@ -1,0 +1,10 @@
+.flex_div{
+    display: flex;
+
+
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    width: 302px;
+    margin: 8vh auto 0;
+}

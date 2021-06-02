@@ -1,0 +1,13 @@
+.logout{
+    color: #707070;
+    font-size: 12px;
+    border-bottom: solid 1px #707070;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.login{
+    color: #8b0128;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}

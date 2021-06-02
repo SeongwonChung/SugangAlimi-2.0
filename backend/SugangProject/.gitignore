@@ -1,0 +1,7 @@
+
+# Elastic Beanstalk Files
+# .elasticbeanstalk/*
+# !.elasticbeanstalk/*.cfg.yml
+# !.elasticbeanstalk/*.global.yml
+
+#eb deploy 과정에서 생긴 파일..

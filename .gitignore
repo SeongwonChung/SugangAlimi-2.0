@@ -1,0 +1,15 @@
+# backend
+backend/SugangProject/.elasticbeanstalk
+backend/SugangProject/log
+
+backend/SugangProject/MailNotify/utils/course_info_for_test.py
+backend/SugangProject/MailNotify/utils/utility_testing.py
+backend/SugangProject/SugangProject/config
+backend/SugangProject/SugangProject/settings.py
+backend/SugangProject/SugangProject/production.py
+backend/SugangProject/User/my_settings.py
+
+
+# frontend
+frontend/.elasticbeanstalk
+frontend/src/config

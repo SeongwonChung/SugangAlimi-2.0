@@ -1,0 +1,5 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=""
+HOME=/
+*/10 * * * * root /opt/python/run/venv/bin/python /opt/python/current/app/manage.py mailnotify

@@ -1,0 +1,48 @@
+button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 306.5px;
+  height: 48px;
+
+  margin-bottom: 18px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+.border_btn {
+  border-radius: 3px;
+  border: solid 1px #8b0028;
+  background-color: white;
+  color: #8b0028;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 0.19px;
+  text-align: left;
+  color: #8b0128;
+}
+
+.btn {
+  border-radius: 3px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #8b0028;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 0.19px;
+  text-align: left;
+  color: white;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}

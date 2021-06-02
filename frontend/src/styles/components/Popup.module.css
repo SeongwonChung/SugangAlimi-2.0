@@ -1,0 +1,88 @@
+.Popup_overlay {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Popup_wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  width: 320px;
+
+  border-radius: 4px;
+  box-shadow: 6px 6px 30px 0 rgba(0, 0, 0, 0.16);
+}
+.Popup_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.Title {
+  width: 220px;
+}
+.Title > h2 {
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8b0128;
+
+  margin-left: 22px;
+}
+.Button {
+  width: 20px;
+}
+.Popup_button {
+  padding-right: 20px;
+  width: 20px;
+  text-align: right;
+  background-color: white;
+  margin-bottom: 0;
+}
+
+.Icon {
+  font-size: 26px;
+  color: #707070;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.Popup {
+  margin: 15px;
+  margin-left: 22px;
+  margin-right: 0px;
+  font-size: 12px;
+  margin-bottom: 60px;
+}
+.Popup_footer {
+  margin: 22px;
+}
+
+/* .Popup {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 50px;
+  text-align: center;
+  z-index: 100;
+  background: white;
+}
+
+.Popup > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 52px;
+  height: 45px;
+  text-align: center;
+} */
