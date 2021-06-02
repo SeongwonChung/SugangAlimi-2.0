@@ -1,0 +1,36 @@
+.parent {
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 100px;
+  text-align: left;
+  color: #707070;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.5px;
+
+  width: 100%;
+
+
+}
+
+.text_wrapper {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.contact {
+  opacity: 0.43;
+  font-size: 12px;
+  
+}
+
+.email {
+  font-size: 12px;
+  margin: 0 5px;
+}

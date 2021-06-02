@@ -1,0 +1,132 @@
+.container {
+  margin-bottom: 65px;
+}
+.total_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  padding: 18px 0px;
+
+  width: 310px;
+}
+.mail_off{
+  width: 300px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row;
+  font-size: 11px;
+  color: #707070;
+  text-align: right;
+  margin-top: 16px;
+  margin-bottom: 2px;
+
+  
+}
+
+.main_ment_box{
+  border-radius: 55px 55px 55px 2px;
+  width: 307px;
+  height: 110px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.16);
+ 
+
+  text-align: left;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.beta_alarm{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  color: #8b0028;
+}
+.beta_text{
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+
+  letter-spacing: 0.14px;
+  text-align: left;
+  color: #8b0028;
+}
+.alarm_icon{
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+}
+.main_ment{
+  margin: 5px 0 5px 18px;
+
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: 0.32px;
+  text-align: left;
+  color: #3e3e3e;
+  
+}
+.how_to_use{
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  letter-spacing: 0.16px;
+  text-align: left;
+  color: #8b0028;
+  margin-top: 40px;
+  width: 300px;
+}
+.how_to_icon{
+  width: 25px;
+  margin-right: 11px;
+}
+
+.how_to_detail{
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding-left: 11px;
+  padding-bottom: 2px;
+  border-bottom: solid 1px #cccccc;
+
+}
+
+.go_text {
+  font-size: 12px;
+  border-bottom: 0.5px solid #8b0128;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.12px;
+  text-align: left;
+  color: #8b0128;
+  text-decoration: none;
+  margin-left: 11px;
+  margin-top: 10px;
+}

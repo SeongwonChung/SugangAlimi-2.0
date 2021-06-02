@@ -1,0 +1,27 @@
+.DS_Store
+.vscode
+SugangProject/db.sqlite3
+**/db.sqlite3
+__pycache__
+
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+
+# SugangProject/User/my_settings.py
+
+# Elastic Beanstalk Files
+**/elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!**/elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+!**/elasticbeanstalk/*.global.yml
+
+#config
+
+#pyenv setting
+.python-version
+
+#test
+SugangProject/ClassStatus/utils/test
+test

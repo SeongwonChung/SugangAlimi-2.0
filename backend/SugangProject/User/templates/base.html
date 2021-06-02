@@ -1,0 +1,111 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block title %}      <!-- 페이지별 타이틀 공간 -->
+    {% endblock title %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}">
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+    <title>수강신청 알리미</title>
+    {% block css %}        <!-- 페이지별 css -->
+    
+    {% endblock css %}
+    <style type="text/css">
+        h1{
+            font-size: 28px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.25;
+            letter-spacing: 0.32px;
+            text-align: left;
+            color: #8b0028;
+            margin: 0;
+         
+        }
+        p{
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.57;
+            letter-spacing: normal;
+            text-align: left;
+            color: #707070;
+   
+        }
+        a{
+            margin-top: 30px;
+            cursor: pointer;
+            color: #8b0128;
+            font-size: 32px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-decoration: none;
+        }
+
+        h3{
+            font-size: 18px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.22;
+            letter-spacing: normal;
+            text-align: left;
+            color: #8b0028;
+            margin: 0;
+        }
+        button{  
+            width: 306px;
+            height: 48px;
+            
+            border-radius: 3px;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.25;
+            letter-spacing: 0.19px;
+            text-align: center;
+            margin: 9px 0;
+            
+        }
+        .white_btn{
+      
+            border-radius: 3px;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            border: solid 1px #8b0028;
+            background-color: white;
+            color: #8b0028;
+            margin-top: 170px;
+        }
+        .red_btn{
+            
+            background-color: #8b0028;
+            color: #ffffff;
+        }
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            align-content: flex-start;
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+    {% block content %}
+    <a href="https://ku-sugang.com/">홈으로</a>
+    {% endblock content %}
+    
+    {% block scripts %}    <!-- 페이지별 스크립트 공간 -->
+    {% endblock scripts %}
+</body>
+</html>

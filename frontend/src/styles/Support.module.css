@@ -1,0 +1,105 @@
+.top_wrapper {
+  margin-left: 34px;
+  margin-top: 18px;
+}
+
+.top_wrapper > h1 {
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: -0.1pt;
+  text-align: left;
+  color: #8b0028;
+}
+
+.bottom_wrapper {
+  /* margin-top: px; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #171717;
+
+}
+
+.statement {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: left;
+  color: #171717;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+}
+
+.notice_text {
+  font-size: 0.7rem;
+  color: #8b0028;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.developers {
+  font-size: 0.8rem;
+
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #171717;
+}
+
+input {
+  width: 130px;
+  padding-left: 6px;
+  padding-right: 2px;
+  border: none;
+  outline: none;
+  align-items: flex-end;
+  font-size: 14px;
+  
+}
+input:focus { 
+  outline: none; 
+  font-size: 14px;
+}
+.bank_number{
+  border-bottom: solid 0.5px;
+  margin-right: 2px;
+}
+.copy_icon{
+  color: #171717;
+  width: 17px;
+  margin: 0;
+}

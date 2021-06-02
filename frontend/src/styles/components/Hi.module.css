@@ -1,0 +1,15 @@
+.logined{
+    color: #8b0128;
+    font-size: 12px;
+    display: flex;
+    align-items: flex-end;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+MdPerson{
+    margin-right: 2px;
+    padding-top: 3px;
+    font-size: 14px;
+}
